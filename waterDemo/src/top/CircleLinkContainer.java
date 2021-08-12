@@ -8,6 +8,8 @@ public class CircleLinkContainer {
         this.linkedTo = this;
     }
 
+    private double water;
+
     private CircleLinkContainer linkedTo;
 
     public CircleLinkContainer getLinkedTo() {
@@ -23,6 +25,28 @@ public class CircleLinkContainer {
         u1.linkedTo = l0;
     }
 
+    public void addWater(double addWater){
+        this.water+=addWater;
+    }
+
+    public double getAmount(){
+        int count = 0;
+        double sumWater = 0;
+        CircleLinkContainer link = this.linkedTo;
+        do {
+            count++;
+            sumWater += link.getWater();
+            link = link.getLinkedTo();
+        } while (link != this.linkedTo);
+        double avgWater = sumWater / count;
+        link = this.linkedTo;
+        do {
+            link.setWater(avgWater);
+            link = link.getLinkedTo();
+        } while (link != this.linkedTo);
+        return avgWater;
+    }
+
     public void setLinkedTo(CircleLinkContainer linkedTo) {
         this.linkedTo = linkedTo;
     }
@@ -36,4 +60,11 @@ public class CircleLinkContainer {
         return list;
     }
 
+    public double getWater() {
+        return water;
+    }
+
+    public void setWater(double water) {
+        this.water = water;
+    }
 }

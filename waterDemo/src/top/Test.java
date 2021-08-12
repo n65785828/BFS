@@ -6,23 +6,23 @@ public class Test {
     public static void main(String[] args) {
 //        test0();
         CircleLinkContainer a = new CircleLinkContainer();
-        List<CircleLinkContainer> groupContainers = a.getGroupContainers();
+        a.addWater(7);
         CircleLinkContainer b = new CircleLinkContainer();
+        b.addWater(1);
         CircleLinkContainer c = new CircleLinkContainer();
+        c.addWater(1);
         CircleLinkContainer d = new CircleLinkContainer();
+        d.addWater(7);
         CircleLinkContainer e = new CircleLinkContainer();
+        e.addWater(1);
         CircleLinkContainer f = new CircleLinkContainer();
+        a.addWater(1);
         a.connectTo(b);
-        groupContainers = a.getGroupContainers();
         b.connectTo(c);
-        groupContainers = a.getGroupContainers();
         c.connectTo(d);
-        groupContainers = a.getGroupContainers();
         d.connectTo(e);
-        groupContainers = a.getGroupContainers();
         e.connectTo(f);
-        groupContainers = a.getGroupContainers();
-        System.out.println("fin");
+        System.out.println(a.getAmount());
     }
 
     private static void test0() {
