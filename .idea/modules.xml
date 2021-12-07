@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/JUC/JUC.iml" filepath="$PROJECT_DIR$/JUC/JUC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ShowBFS/ShowBFS.iml" filepath="$PROJECT_DIR$/ShowBFS/ShowBFS.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm.iml" filepath="$PROJECT_DIR$/algorithm/algorithm.iml" />
+      <module fileurl="file://F:/demo/demo.iml" filepath="F:/demo/demo.iml" />
+      <module fileurl="file://F:/demo2/demo2.iml" filepath="F:/demo2/demo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leetcode/leetcode.iml" filepath="$PROJECT_DIR$/leetcode/leetcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smartDoc/smartDoc.iml" filepath="$PROJECT_DIR$/smartDoc/smartDoc.iml" />
       <module fileurl="file://$PROJECT_DIR$/snowFlakes/snowFlakes.iml" filepath="$PROJECT_DIR$/snowFlakes/snowFlakes.iml" />
       <module fileurl="file://$PROJECT_DIR$/waterDemo/waterDemo.iml" filepath="$PROJECT_DIR$/waterDemo/waterDemo.iml" />
     </modules>

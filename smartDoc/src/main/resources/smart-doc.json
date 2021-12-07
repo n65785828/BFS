@@ -1,0 +1,17 @@
+{
+  "outPath": "D://md2",
+  "isStrict": false,
+  "projectName": "smart-doc-test",
+  "appToken": "4ab6ea9d97a241e5ba50a5b9f36d7a19",
+  "openUrl": "http://www.fishbar.top:7700/api",
+  "debugEnvName":"测试环境",
+  "replace": true,
+  "errorCodeDictionaries": [
+    {
+      "title": "错误代码",
+      "enumClassName": "top.fishbar.smartdoc.model.BaseErrorCode",
+      "codeField": "code",
+      "descField": "message"
+    }
+  ]
+}
