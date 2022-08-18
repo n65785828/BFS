@@ -5,6 +5,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.concurrent.LinkedBlockingQueue;
 
+/**
+ * BFS算法
+ */
 public class BFS {
     public static void main(String[] args) {
         HashMap<String,String[]> hashMap=new HashMap<>();
